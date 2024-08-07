@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 70vh;
+    margin: 0;
+}
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.logo img {
+    height: 150px;
+    width:150px;
+    margin-top:10px;
+    margin-left:5px;
+}
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    margin-left: 20px;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    margin-right:60px;
+}
+.icon {
+    height:19px;
+    width:19px;    
+}
+.nav-center {
+    display:flex;
+    align-items:center;
+    margin-top:50px;
+    flex-grow: 1; 
+    justify-content: center;
+    padding-right:150px;
+}
+
+.search-bar {
+    width: 100%;
+    max-height:1px;
+    max-width: 500px; 
+    padding: 20px;
+    border: 3px solid #D3D3D3;
+    text-decoration:none;
+    border-radius: 50px;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 6px 10px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+.gallery-item {
+    flex: 1;
+    margin: 0 30px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    height:500px;
+    
+}
+
+.dress-text{
+    text-align:center;
+    padding-top:30px;
+}
+.view{
+    margin-top:20px;
+    padding:10px 30px;
+    color:white;
+    background-color:black;
+}
